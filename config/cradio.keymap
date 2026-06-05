@@ -57,7 +57,7 @@
         //│  Ctrl    │  Alt     │          │          │          │   │ _        │ {        │  PdDn    │  }       │   \      │
             &kp LCTRL  &kp LALT   &trans     &trans     &trans        &kp UNDER   &kp LBRC  &kp PG_DN   &kp RBRC    &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &key_repeat  &kp TAB       &kp LALT   &kp ENTER
+                                            &kp LCMD  &kp TAB       &kp LALT   &kp ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -74,7 +74,7 @@
         //│  Ctrl    │  Alt     │          │          │          │   │  -       │  LEFT    │ DOWN     │ RIGHT    │  |       │
             &kp LCTRL  &kp LALT     &trans     &trans     &trans       &kp MINUS  &kp LEFT   &kp DOWN  &kp RIGHT   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                              &trans    &kp TAB         &trans     &trans
+                                              &LCMD    &kp TAB         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
