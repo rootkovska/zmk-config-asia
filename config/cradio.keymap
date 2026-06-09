@@ -38,7 +38,7 @@
             &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ ? /      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M     &kp COMMA &mt LCMD DOT  &kp FSLH
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M     &kp COMMA   &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                          &lt 1 TAB   &kp SPACE        &lt 2 BSPC  &mt LSHIFT ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -55,9 +55,9 @@
             &kp GRAVE  &trans     &trans     &trans     &trans        &kp EQUAL   &kp LBKT   &kp PG_UP   &kp RBRC   &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Ctrl    │  Alt     │          │          │          │   │ _        │ {        │  PdDn    │  }       │   \      │
-            &kp LCTRL  &kp LALT   &trans     &trans     &trans        &kp UNDER   &kp LBRC  &kp PG_DN   &kp RBRC    &kp BSLH
+            &trans     &trans     &trans     &trans     &trans        &kp UNDER   &kp LBRC  &kp PG_DN   &kp RBRC    &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                              &trans     &trans         &trans     &trans
+                                              &trans     &trans         &trans    &sk LCMD 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -74,7 +74,7 @@
         //│  Ctrl    │  Alt     │          │          │          │   │  -       │  LEFT    │ DOWN     │ RIGHT    │  |       │
             &kp LCTRL  &kp LALT     &trans     &trans     &trans       &kp MINUS  &kp LEFT   &kp DOWN  &kp RIGHT   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                              &trans     &trans         &trans     &trans
+                                              &trans    &sk LALT        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
